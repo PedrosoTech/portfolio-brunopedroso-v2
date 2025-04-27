@@ -203,11 +203,23 @@ footer {
   .skills-list {
     grid-template-columns: repeat(4, 1fr);
   }
+  
+  .project-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
   .skills-list {
     grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  main {
+    padding: 2rem 1.5rem;
   }
 }
 
@@ -215,11 +227,36 @@ footer {
   .skills-list {
     grid-template-columns: repeat(2, 1fr);
   }
+  
+  .project-grid {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 400px;
+  }
+  
+  nav ul {
+    gap: 1rem;
+  }
+  
+  .project-description {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 400px) {
   .skills-list {
     grid-template-columns: repeat(1, 1fr);
+  }
+  
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
   }
 }
   
