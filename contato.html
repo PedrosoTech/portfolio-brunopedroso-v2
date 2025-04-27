@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; script-src 'self' https://cdnjs.cloudflare.com; img-src 'self'; font-src https://cdnjs.cloudflare.com; connect-src 'none';">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <title>Bruno Pedroso Dev</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Removido script inseguro do FontAwesome -->
+  <style>
+    .contact-info {
+      background-color: rgba(30, 30, 30, 0.8);
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .contact-item {
+      margin-bottom: 1.5rem;
+    }
+    
+    .contact-label {
+      color: #9370DB;
+      font-size: 1.5rem;
+      font-weight: bold;
+      display: inline;
+    }
+    
+    .contact-value {
+      font-size: 1.2rem;
+      display: inline;
+      margin-left: 5px;
+    }
+    
+    .contact-value a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    
+    .contact-value a:hover {
+      text-decoration: underline;
+    }
+    
+    .social-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    
+    .social-btn {
+      background-color: #9370DB;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+      min-width: 120px;
+      text-align: center;
+    }
+    
+    .social-btn:hover {
+      background-color: #8A2BE2;
+    }
+    
+    @media (max-width: 480px) {
+      .social-buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .social-btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Sobre Mim</a></li>
+        <li><a href="habilidades.html">Habilidades</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="contact-info">
+      <div class="contact-item">
+        <span class="contact-label">Email</span>
+        <span class="contact-value"><a href="mailto:brn.pedrosoinformatica@gmail.com">brn.pedrosoinformatica@gmail.com</a></span>
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">Telefone</span>
+        <span class="contact-value">(11) 97086-6917</span>
+      </div>
+      <div class="social-buttons">
+        <a href="https://www.linkedin.com/in/bruno-pedroso-26aa49248/" class="social-btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/PedrosoTech" class="social-btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 - Design por Bruno Pedroso</p>
+  </footer>
+</body>
+</html>
